@@ -1,0 +1,57 @@
+PODS:
+  - MaterialComponents/AnimationTiming (65.0.0)
+  - MaterialComponents/Buttons (65.0.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (65.0.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/OverlayWindow (65.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Application (65.0.0)
+  - MaterialComponents/private/KeyboardWatcher (65.0.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (65.0.0)
+  - MaterialComponents/private/Overlay (65.0.0)
+  - MaterialComponents/private/Shapes (65.0.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/ShadowElevations (65.0.0)
+  - MaterialComponents/ShadowLayer (65.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Snackbar (65.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Buttons
+    - MaterialComponents/OverlayWindow
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Overlay
+    - MaterialComponents/Typography
+  - MaterialComponents/Typography (65.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (1.1.0)
+  - MDFTextAccessibility (1.2.0)
+
+DEPENDENCIES:
+  - MaterialComponents/Snackbar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+
+SPEC CHECKSUMS:
+  MaterialComponents: ea21a99bd4da688f9becf8c3e9416016343cbe32
+  MDFInternationalization: b5b8626628abf026e630e5ebaeee563037712cbb
+  MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+
+PODFILE CHECKSUM: 32fec5247e9e0bc970c6cd23a51db1fa23ea1cd1
+
+COCOAPODS: 1.5.3
