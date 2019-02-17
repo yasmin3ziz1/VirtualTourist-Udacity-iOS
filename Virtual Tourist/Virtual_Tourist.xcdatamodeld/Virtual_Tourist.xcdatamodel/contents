@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
+    <entity name="Entity1" representedClassName="Entity1" syncable="YES" codeGenerationType="class"/>
+    <entity name="EntityText" representedClassName="EntityText" syncable="YES" codeGenerationType="class"/>
+    <entity name="Photo" representedClassName="Photo" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="imageUrl" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pin" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Pin" inverseName="photos" inverseEntity="Pin" syncable="YES"/>
+    </entity>
+    <entity name="Pin" representedClassName="Pin" syncable="YES">
+        <attribute name="latitude" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" attributeType="String" syncable="YES"/>
+        <relationship name="photos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Photo" inverseName="pin" inverseEntity="Photo" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Entity" positionX="-270" positionY="-423" width="128" height="45"/>
+        <element name="EntityText" positionX="-282.5390625" positionY="-630.7109375" width="128" height="45"/>
+        <element name="Photo" positionX="-111.66796875" positionY="-337.2265625" width="128" height="105"/>
+        <element name="Pin" positionX="-486.01953125" positionY="-342.1640625" width="128" height="90"/>
+        <element name="Entity1" positionX="-261" positionY="-441" width="128" height="45"/>
+    </elements>
+</model>
